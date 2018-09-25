@@ -208,17 +208,21 @@ body {
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
 img {
-  max-width: 100%;
+  max-width: 20%;
+  position: relative;
+  left: 40%;
   margin-left: 0;
   margin-right: 0;
-  margin-top: 0;
+  margin-top: 10px;
+  border-radius: 50%;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 0;
 }
 h1 {
+  text-align: center;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -338,7 +342,7 @@ ul {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 0;
   list-style-position: outside;
   list-style-image: none;
 }
@@ -383,6 +387,7 @@ p {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
+  text-align: center;
 }
 figure {
   margin-left: 0;
@@ -511,7 +516,7 @@ th {
   font-weight: bold;
 }
 li {
-  margin-bottom: calc(1.45rem / 2);
+  margin-bottom: 0;
 }
 ol li {
   padding-left: 0;
@@ -567,11 +572,11 @@ abbr[title] {
   text-decoration: none;
 }
 thead {
-  text-align: left;
+  text-align: center;
 }
 td,
 th {
-  text-align: left;
+  text-align: center;
   border-bottom: 1px solid hsla(0, 0%, 0%, 0.12);
   font-feature-settings: "tnum";
   -moz-font-feature-settings: "tnum";
@@ -621,4 +626,51 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+.socials {
+    left: 34.8%;
+    width: 20%;
+    position:relative;
+}
+
+.socialIMG {
+    margin-left: 5px;
+}
+ul {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: auto;
+    background-color: #435777;
+    display: flex;
+    justify-content: center;
+    border-color: #435777;
+    border-style: solid;
+    border-width: 0px;
+    border-top-style: none;
+    margin-bottom: 15px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #3b4c68;
+}
+
+.active {
+    background-color: white;
+    color: #435777;
 }
