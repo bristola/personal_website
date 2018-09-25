@@ -643,7 +643,6 @@ ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    overflow: auto;
     background-color: #435777;
     display: flex;
     justify-content: center;
@@ -652,6 +651,7 @@ ul {
     border-width: 0px;
     border-top-style: none;
     margin-bottom: 15px;
+    width:100%
 }
 
 li {
@@ -673,4 +673,19 @@ li a:hover:not(.active) {
 .active {
     background-color: white;
     color: #435777;
+}
+
+@media only screen and (max-width: 500px) {
+    li {
+        width: 20%;
+        font-size:12px;
+    }
+    li a {
+        padding: 5px 7px;
+    }
+    .socials {
+        left: 33.25%;
+        width: 20%;
+        position:relative;
+    }
 }
