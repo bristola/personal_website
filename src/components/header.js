@@ -30,6 +30,7 @@ const Header = () => (
           Austin Bristol
         </Link>
       </h1>
+      <h3>bristola@allegheny.edu</h3>
       <img src={profile_pic} alt="Profile Picture"
         style={{
             marginBottom: '10px',
