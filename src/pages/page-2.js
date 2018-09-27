@@ -17,7 +17,7 @@ const IndexPage = () => (
                 <li style={{}}>
                     <b>Allegheny College (2015-2019)</b>
                     <ul style={{textAlign:"left"}}>
-                        <li>Computer Scince Major</li>
+                        <li>Computer Science Major</li>
                         <li>Mathematics and Economics Minors</li>
                         <li>Cumulative GPA: 3.8</li>
                         <li>Distinguished Alden Scholar (Dean’s List) for high academic achievement</li>
