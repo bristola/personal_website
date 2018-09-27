@@ -11,21 +11,23 @@ const IndexPage = () => (
             <Link to="/page-3/"><li className="tabs2"><a href="">Experience</a></li></Link>
             <Link to="/page-4/"><li className="tabs2"><a className="active" style={{color:"#435777",}} href="">Projects</a></li></Link>
         </ul>
-        <h2>Large Projects</h2>
+        <h2>Large Personal Projects</h2>
         <p>
             <ul style={{marginTop:"13px", textAlign:"left"}}>
                 <li style={{}}>
-                    <b>Database Updater</b>
+                    <b>Distributed Java Workflow</b>
                     <ul style={{textAlign:"left"}}>
-                        <li>https://github.com/bristola/DatabaseGrapher</li>
+                        <li><a href="https://github.com/bristola/Distributed_Java_Workflow">GitHub Link</a></li>
+                        <li>This Java project was originally made for a distributed computing class. The system allows the user to chain together a workflow or an acyclic graph of Java code tasks. It will take the tasks and execute them automatically on different amazon web service instances. This is all based on filling out config file before execution.</li>
                     </ul>
                 </li>
             </ul>
             <ul style={{marginTop:"13px", textAlign:"left"}}>
                 <li style={{}}>
-                    <b>Distributed Java Workflow</b>
+                    <b>Database Grapher</b>
                     <ul style={{textAlign:"left"}}>
-                        <li>https://github.com/bristola/Distributed_Java_Workflow</li>
+                        <li><a href="https://github.com/bristola/DatabaseGrapher">GitHub Link</a></li>
+                        <li>This Java project was to be able to automatically make graphs using an Sqlite3 database. Just simply put a Sqlite3 file in the Database directory, and run the program using the instructions. Detects various databases, columns, variables, and foreign key relationships, and automatically creates either a bar graph or a line graph.</li>
                     </ul>
                 </li>
             </ul>
@@ -34,6 +36,7 @@ const IndexPage = () => (
                     <b>Automatic Crypto Currency Trader</b>
                     <ul style={{textAlign:"left"}}>
                         <li>Source code private</li>
+                        <li>This is a large Python project made for the company Azariel Technologies LLC which I have co-founded. Automatically trades crypto currencies using different methods such as market analysis, and runs the programs with amazon web services.</li>
                     </ul>
                 </li>
             </ul>
@@ -41,7 +44,17 @@ const IndexPage = () => (
                 <li style={{}}>
                     <b>Interactive Lecture Website</b>
                     <ul style={{textAlign:"left"}}>
-                        <li>https://github.com/bristola/interactive-lecture</li>
+                        <li><a href="https://github.com/bristola/interactive-lecture">GitHub Link</a></li>
+                        <li>A website written in Python with the Flask framework. The goal of the project is to make a common place for teachers, and users to share lecture content and to interact throughout the lecture. This project is not completed and will be continued to be worked on.</li>
+                    </ul>
+                </li>
+            </ul>
+            <ul style={{marginTop:"13px", textAlign:"left"}}>
+                <li style={{}}>
+                    <b>Day Planner</b>
+                    <ul style={{textAlign:"left"}}>
+                        <li><a href="https://github.com/bristola/cs250-FinalProject">GitHub Link</a></li>
+                        <li>The final project for an analysis of algorithms class, and this project was written with a classmate. It will automatically plan out a restaraunt and activity for users to do based on their locations, likes, and dislikes.</li>
                     </ul>
                 </li>
             </ul>
