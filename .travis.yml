@@ -1,7 +1,12 @@
+language: generic
+
 before_install:
   - gem install mdl
+notifications:
+  email: never
   
 script:
   - mdl README.md
-  on:
-    branch: master
+
+after_success:
+  coveralls
