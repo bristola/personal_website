@@ -1,10 +1,10 @@
 # Austin Bristol's Personal Website
 
 This repository holds the source code for my personal website which can be found
-at [austinbristol.com](https://www.austinbristol.com/). It has been made by myself, along
-with its own HTML and css code designed for the website. This website contains
-information about myself while looking for employment opportunities and for life
-in general. Acts a lot like an online resume.
+at [austinbristol.com](https://www.austinbristol.com/). It has been made by
+myself, along with its own HTML and css code designed for the website. This
+website contains information about myself while looking for employment
+opportunities and for life in general. Acts a lot like an online resume.
 
 ## Installation
 
