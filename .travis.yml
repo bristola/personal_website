@@ -1,0 +1,7 @@
+before_install:
+  - gem install mdl
+  
+script:
+  - mdl README.md
+  on:
+    branch: master
