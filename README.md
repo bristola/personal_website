@@ -9,10 +9,15 @@ in general. Acts a lot like an online resume.
 ## Installation
 
 1. First you must clone the website into your own computer.
+
 2. Next, if you do not have npm you must install it.
+
 3. Install gatsby to run the website, using the command `npm install -g gatsby-cli`
+
 4. Make sure you traverse to the root of the Git repository.
+
 5. Finally, run the command `gatsby develop`
+
 6. The site can then be seen and updated at [http://localhost:8000](http://localhost:8000)
 
 ## Tools
