@@ -58,6 +58,15 @@ const IndexPage = () => (
                     </ul>
                 </li>
             </ul>
+            <ul style={{marginTop:"13px", textAlign:"left"}}>
+                <li style={{}}>
+                    <b>Spotify Playlist Creator</b>
+                    <ul style={{textAlign:"left"}}>
+                        <li><a href="https://github.com/bristola/spotify_playlist_creator">GitHub Link</a></li>
+                        <li>This project is a website which allows you to quickly create Spotify playlist based on a certain number of options. From one playlist, you can create another playlist which has only songs of a certain genre, artist, album, popularity, etc. The backend of the server which handles requests as well as Spotify authorization. It uses Spring Boot as a website framework and the Spotify web API.</li>
+                    </ul>
+                </li>
+            </ul>
         </p>
     </Layout>
 )
