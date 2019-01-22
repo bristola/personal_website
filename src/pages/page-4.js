@@ -33,6 +33,24 @@ const IndexPage = () => (
             </ul>
             <ul style={{marginTop:"13px", textAlign:"left"}}>
                 <li style={{}}>
+                    <b>AI Soccer game</b>
+                    <ul style={{textAlign:"left"}}>
+                        <li><a href="https://github.com/Allegheny-College-Science-310-F2018/project-cmpsc-310-fall-2018-allegheny-college-activision-jv-squad">GitHub Link</a></li>
+                        <li>This project is a game developed from scratch in Python using various libraries and developed with a classmate. It is a physics based soccer game with an AI controlled player. A link to a demo of the game can be found in the README of the GitHub repository.</li>
+                    </ul>
+                </li>
+            </ul>
+            <ul style={{marginTop:"13px", textAlign:"left"}}>
+                <li style={{}}>
+                    <b>News and Social Media Analysis</b>
+                    <ul style={{textAlign:"left"}}>
+                        <li><a href="https://github.com/bristola/social_news_analysis">GitHub Link</a></li>
+                        <li>This project is currently being developed for my senior project at Allegheny College. It is a large Python program which collects and analyzes large amounts of media data. It will also have a website front end to interact with.</li>
+                    </ul>
+                </li>
+            </ul>
+            <ul style={{marginTop:"13px", textAlign:"left"}}>
+                <li style={{}}>
                     <b>Database Grapher</b>
                     <ul style={{textAlign:"left"}}>
                         <li><a href="https://github.com/bristola/DatabaseGrapher">GitHub Link</a></li>
