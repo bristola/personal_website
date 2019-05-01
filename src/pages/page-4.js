@@ -100,6 +100,19 @@ const IndexPage = () => (
                     </ul>
                 </li>
             </ul>
+            <ul style={{marginTop:"13px", textAlign:"left"}}>
+                <li style={{}}>
+                    <b>Petition Pronto</b>
+                    <ul style={{textAlign:"left"}}>
+                        <li><a href="https://github.com/GatorEducator/petition-pronto">GitHub Link</a></li>
+                        <li>Petition Pronto is a work-in-progress system that will allow students to upload a petition for a change in, for instance, their graduation requirements. Along with giving faculty a way to vote on the petition, this system will then automatically notify students of the result of the vote.</li>
+                        <li>For this second project completed for cmpsc441, my team and I developed "Petition Pronto". We were tasked to create a software system which allows students to submit petitions for their class and curriculum, as well as allow professors to respond to these submissions. This system allows a way for all users to complete their necessary tasks easily and efficiently. The way we were to implement these requirements were up to us.</li>
+                        <li>As team we first decided the broad methodologies by which we were to complete the project. We determined that using a web interface was the easiest and most straightforward way for our users to use the system. By using the Python web framework flask, we have been able to create a fully working website that students and professors can use to handle class petitions.</li>
+                        <li>There are many features to this project. Namely, students can easily go to our website, and submit their own petition. This petition will be assigned to all the professors in the related department to review for approval. Professors can log in to the system based on the administrators signin credentials that they assigned. Professors can do things such as change their password to their liking. Upon signing in to the website, professors are prompted with the petitions that were submitted to their department. By clicking on different petitions, professors can review the petition as well as give their approval or disapproval. Once all the professors review a petition, students will get an email notification telling them the result.</li>
+                        <li>In order to store all the data that this website needs, we have developed many different tables in an sqlite3 database. This is queried through Python once users make requests to different flask routes. These two technologies in tandem allow the system to effectively accomplish the goals we set out.</li>
+                    </ul>
+                </li>
+            </ul>
         </p>
     </Layout>
 )
